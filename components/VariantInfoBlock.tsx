@@ -28,7 +28,7 @@ export default function VariantInfoBlock({
         type="text"
         placeholder="name"
         className="border-2 border-yellow-500 p-2 my-1"
-        defaultValue={name}
+        value={name}
         onChange={(e) => {
           onEditItem({
             index: currentIndex,
@@ -41,7 +41,7 @@ export default function VariantInfoBlock({
         type="text"
         placeholder="decription"
         className="border-2 border-yellow-500 p-2 my-1"
-        defaultValue={description}
+        value={description}
         onChange={(e) => {
           onEditItem({
             index: currentIndex,
